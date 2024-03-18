@@ -1,8 +1,8 @@
-This Java program is a virtual assistant for managing clients, services, invoices, and providing analytics related to a business.
+# This Java program is a virtual assistant for managing clients, services, invoices, and providing analytics related to a business. #
 
 DATABASE CONNECTIVITY: The program connects to a MySQL database using JDBC.
 
-CLIENT MANAGEMENT: Adding a client to the database. Viewing all clients. Updating client details. Deleting a client from the database.
+CLIENT MANAGEMENT:Adding a client to the database. Viewing all clients. Updating client details. Deleting a client from the database.
 
 SERVICE MANAGEMENT: Adding a service to the database with a specified rate. Viewing all services. Updating service details (name and rate). Deleting a service from the database.
 
