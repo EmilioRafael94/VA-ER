@@ -1,18 +1,18 @@
-## Getting Started
+This Java program is a virtual assistant for managing clients, services, invoices, and providing analytics related to a business.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+DATABASE CONNECTIVITY: The program connects to a MySQL database using JDBC.
 
-## Folder Structure
+CLIENT MANAGEMENT: Adding a client to the database. Viewing all clients. Updating client details. Deleting a client from the database.
 
-The workspace contains two folders by default, where:
+SERVICE MANAGEMENT: Adding a service to the database with a specified rate. Viewing all services. Updating service details (name and rate). Deleting a service from the database.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+INVOICE MANAGEMENT: Generating an invoice for a specific client, allowing the user to add services and hours for billing. Viewing all invoices associated with a particular client. Deleting an invoice from the database.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+ANALYTICS: Finding the most popular service based on the number of times it appears in invoices. Identifying the top client based on the total amount spent. Calculating the total income generated from all invoices.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Instructions for Running the Program:
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Ensure you have a MySQL database running locally.
+Update the database connection details (URL, username, password) in the program (VirtualAssistant.java).
+Compile and run the program using Java.
+Note: Before running, make sure to set up the necessary database tables (client, service, invoice, invoice_details) as per the program requirements.
